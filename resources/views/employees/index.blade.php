@@ -45,14 +45,16 @@
                                 <td>{{ $employee->department }}</td>
                                 <td>{{ $employee->position }}</td>
                                 <td>{{ $employee->hire_date }}</td>
-                                <td>
-                                    <a href="{{ route('employees.show', $employee->id) }}" class="btn btn-sm btn-info">View</a>
-                                    <a href="{{ route('employees.edit', $employee->id) }}" class="btn btn-sm btn-warning">Edit</a>
-                                    <form action="{{ route('employees.destroy', $employee->id) }}" method="POST" class="d-inline">
-                                        @csrf
-                                        @method('DELETE')
-                                        <button type="submit" class="btn btn-sm btn-danger" onclick="return confirm('Are you sure?')">Delete</button>
-                                    </form>
+                                <td class="text-nowrap">
+                                    <div class="d-flex gap-1">
+                                        <a href="{{ route('employees.show', $employee->id) }}" class="btn btn-sm btn-info text-white">View</a>
+                                        <a href="{{ route('employees.edit', $employee->id) }}" class="btn btn-sm btn-warning text-white">Edit</a>
+                                        <form action="{{ route('employees.destroy', $employee->id) }}" method="POST" class="d-inline">
+                                            @csrf
+                                            @method('DELETE')
+                                            <button type="submit" class="btn btn-sm btn-danger" onclick="return confirm('Are you sure?')">Delete</button>
+                                        </form>
+                                    </div>
                                 </td>
                             </tr>
                         @empty
