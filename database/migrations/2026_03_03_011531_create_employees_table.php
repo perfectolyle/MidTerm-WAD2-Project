@@ -11,12 +11,13 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('students', function (Blueprint $table) {
+        Schema::create('employees', function (Blueprint $table) {
             $table->id();
-            $table->string('student_id')->unique();
-            $table->string('name');
-            $table->enum('course', ['BSIS', 'BAB', 'BSAIS', 'BSSW', 'BSA']);
-            $table->year('year');
+            $table->string('employee_id')->unique();
+            $table->string('full_name');
+            $table->enum('department', ['IT', 'HR', 'Sales', 'Marketing', 'Finance']);
+            $table->string('position');
+            $table->date('hire_date');
             $table->timestamps();
         });
     }
@@ -26,6 +27,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('students');
+        Schema::dropIfExists('employees');
     }
 };
