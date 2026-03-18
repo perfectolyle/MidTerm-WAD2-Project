@@ -31,5 +31,5 @@ The `employees` table contains the following fields:
 5. Access the application at `http://localhost:8000/`.
 
 ## Screenshots
-![Employee CRUD](file:///C:/Users/pijon/.gemini/antigravity/brain/ed6506ac-9fc6-40fd-ae7c-bbc9fdb7d746/employee_crud_screenshot.png)
-*(Note: Screenshot is a representation of the working CRUD operations)*
+![Employee CRUD](file:///C:/Users/pijon/.gemini/antigravity/brain/328ee4d0-6a4b-4351-9127-8937ad5d73bf/media__1773836125285.png)
+*(Note: Screenshot of the current Employees List UI)*
