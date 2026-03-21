@@ -35,7 +35,7 @@ The `employees` table contains the following fields:
 ![Employee CRUD](public/media__1773836125285.png)
 
 ## CRUD Operations
-**Create**
+- **Create**
 ![Employee CRUD](public/image-copy.png)
 **Read**
 ![Employee CRUD](public/image.png)
