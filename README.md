@@ -33,13 +33,17 @@ The `employees` table contains the following fields:
 ## Screenshots
 **Dashboard**
 ![Employee CRUD](public/media__1773836125285.png)
+
+## CRUD Operations
 **Create**
-![Employee CRUD](public/media__1773836125285.png)
+![Employee CRUD](public/image-copy.png)
 **Read**
-![Employee CRUD](public/media__1773836125285.png)
+![Employee CRUD](public/image.png)
 **Update**
-![Employee CRUD](public/media__1773836125285.png)
+![Employee CRUD](public/image-copy1.png)
 **Delete**
-![Employee CRUD](public/media__1773836125285.png)
+![Employee CRUD](public/image-copy3.png)
+![Employee CRUD](public/image-copy2.png)
+
 
 
