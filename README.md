@@ -39,9 +39,9 @@ The `employees` table contains the following fields:
 ![Employee CRUD](public/image-copy.png)
 - **Read**
 ![Employee CRUD](public/image.png)
-**Update**
+- **Update**
 ![Employee CRUD](public/image-copy1.png)
-**Delete**
+- **Delete**
 ![Employee CRUD](public/image-copy3.png)
 ![Employee CRUD](public/image-copy2.png)
 
