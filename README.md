@@ -31,4 +31,15 @@ The `employees` table contains the following fields:
 5. Access the application at `http://localhost:8000/`.
 
 ## Screenshots
+**Dashboard**
 ![Employee CRUD](public/media__1773836125285.png)
+**Create**
+![Employee CRUD](public/media__1773836125285.png)
+**Read**
+![Employee CRUD](public/media__1773836125285.png)
+**Update**
+![Employee CRUD](public/media__1773836125285.png)
+**Delete**
+![Employee CRUD](public/media__1773836125285.png)
+
+
